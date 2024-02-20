@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+padding-right: 10rem;
+background-color: rgb(128, 192, 247);
+  /* border: 1px solid red; */
+}
+img {
+  width: 100px;
+  border: 1px solid rebeccapurple;
+  border-radius: 50%;
+}
+
+.header ul {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  /* border: 1px solid black; */
+  font-size: 1.5rem;
+  font-weight: bold;
+  align-items: center;
+  
+
+}
+.body {
+  background-color: rgb(238, 224, 188);
+  height: 100vh;
+}
+
+
