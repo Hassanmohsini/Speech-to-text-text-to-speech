@@ -24,3 +24,12 @@ main {
   padding: 2rem;
   background-color: #F0F0F0;
 }
+.footer {
+  background-color: #9CA3AF;
+  color: #FFF;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
