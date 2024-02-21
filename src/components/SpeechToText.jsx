@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-
+import "./SpeechToText.css"
+import { Link } from "react-router-dom";
 
 const SpeechRecognition =
   window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -75,6 +76,7 @@ function SpeechToText() {
           ))}
         </div>
       </div>
+      <Link to="/go-to-app">Go To App</Link>
     </>
   );
 }

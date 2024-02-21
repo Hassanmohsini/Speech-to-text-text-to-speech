@@ -1,31 +1,26 @@
-.header {
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+nav {
   display: flex;
   flex-direction: row;
+ font-size: 1.5rem;
   justify-content: space-between;
-padding-right: 10rem;
-background-color: rgb(128, 192, 247);
-  /* border: 1px solid red; */
-}
-img {
-  width: 100px;
-  border: 1px solid rebeccapurple;
-  border-radius: 50%;
-}
-
-.header ul {
-  display: flex;
-  gap: 3rem;
-  list-style: none;
-  /* border: 1px solid black; */
-  font-size: 1.5rem;
-  font-weight: bold;
   align-items: center;
-  
-
+  background-color: #9CA3AF;
+  color: #fff;
+  padding: 1rem;
 }
-.body {
-  background-color: rgb(238, 224, 188);
-  height: 100vh;
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1rem;
 }
-
-
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  padding: 2rem;
+  background-color: #F0F0F0;
+}
