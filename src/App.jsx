@@ -8,6 +8,7 @@ import AboutUs from "./routes/AboutUs.jsx";
 import GoToApp from "./routes/GoToApp.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
+
 function App() {
   return (
     <>
