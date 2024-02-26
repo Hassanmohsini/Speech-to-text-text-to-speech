@@ -50,12 +50,12 @@ function SpeechToText() {
   };
 
   const handleSaveNote = () => {
-    if (savedNotes.length < 5) {
+    if (savedNotes.length < 10) {
       setSavedNotes([...savedNotes, note]);
       setNote("");
       setIsListening(false); // Stop listening when a note is saved
     } else {
-      alert("You can only save up to 5 notes.");
+      alert("You can only save up to 10 notes.");
     }
   };
 
