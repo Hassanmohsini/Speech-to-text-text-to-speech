@@ -22,6 +22,8 @@ function ContactUs() {
     e.preventDefault();
     // Here you can handle form submission, e.g., sending data to backend or displaying a confirmation message
     console.log(formData);
+
+    alert("submited sucssesfully!");
     // You can reset the form data if needed
     setFormData({
       name: "",
@@ -92,9 +94,7 @@ function ContactUs() {
         <h1></h1>
       </div>
 
-
       <div className="github-links">
-        
         <div>
           <a
             href="https://github.com/Danyaaaal"
