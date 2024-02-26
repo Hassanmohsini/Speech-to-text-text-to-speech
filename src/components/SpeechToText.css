@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
-  height: 100vh;
+  height: 100%;
   background-color: #48618b;
 }
 
@@ -25,6 +25,7 @@ h1 {
     padding: 1rem;
     width: 60%;
     height: 400px;
+    background-color: white;
   }
   .box h2 {
     font-size: 1.5rem;

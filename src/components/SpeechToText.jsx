@@ -87,6 +87,7 @@ function SpeechToText() {
             color: "white",
             fontSize: "16px",
             fontWeight: "bold",
+            marginBottom: "4rem",
           }}
         >
           Go To App
