@@ -1,5 +1,9 @@
+//
+
 import React from "react";
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import "./ContactUs.css";
 
 function ContactUs() {
@@ -23,7 +27,7 @@ function ContactUs() {
     // Here you can handle form submission, e.g., sending data to backend or displaying a confirmation message
     console.log(formData);
 
-    alert("submited sucssesfully!");
+    alert("submitted successfully!");
     // You can reset the form data if needed
     setFormData({
       name: "",
@@ -94,6 +98,11 @@ function ContactUs() {
         <h1></h1>
       </div>
 
+        <div className="icon">
+          <p>
+            These are our GitHub links <FontAwesomeIcon icon={faGithub} />
+          </p>
+        </div>
       <div className="github-links">
         <div>
           <a
